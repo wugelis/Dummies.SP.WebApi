@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dummies.SP.WebApi", "Dummies.SP.WebApi\Dummies.SP.WebApi.csproj", "{67EEF8A3-E6B5-450B-A784-99851C7D298A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi2TestApp1", "WebApi2TestApp1\WebApi2TestApp1.csproj", "{3A7DC657-2250-4908-A0D8-BDC75ABE0599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallWebApiUnitTestProject1", "CallWebApiUnitTestProject1\CallWebApiUnitTestProject1.csproj", "{0F834F40-0EF5-4AA5-A094-EF999EFFFD29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dummies.ServerMethodLibrary1", "Dummies.ServerMethodLibrary1\Dummies.ServerMethodLibrary1.csproj", "{FC60EDF9-4149-400B-9B61-4C96918CDB34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYGetWebApi2TestApp1", "MYGetWebApi2TestApp1\MYGetWebApi2TestApp1.csproj", "{D40A79F2-D074-4D1C-97FE-1A451FEC5BC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestWeb", "TestWeb", "{A5698DD9-B16B-411D-9CF5-B8239C767DC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{63A3E645-532E-4FD8-97AF-2CFFE12BABFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerComponent", "ServerComponent", "{E66F7781-8121-4992-8474-506321D871DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SPAssembly", "SPAssembly", "{54AB7DE4-84CD-466A-A0B4-9B44A447BBC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67EEF8A3-E6B5-450B-A784-99851C7D298A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EEF8A3-E6B5-450B-A784-99851C7D298A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EEF8A3-E6B5-450B-A784-99851C7D298A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EEF8A3-E6B5-450B-A784-99851C7D298A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7DC657-2250-4908-A0D8-BDC75ABE0599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7DC657-2250-4908-A0D8-BDC75ABE0599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7DC657-2250-4908-A0D8-BDC75ABE0599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7DC657-2250-4908-A0D8-BDC75ABE0599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F834F40-0EF5-4AA5-A094-EF999EFFFD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F834F40-0EF5-4AA5-A094-EF999EFFFD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F834F40-0EF5-4AA5-A094-EF999EFFFD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F834F40-0EF5-4AA5-A094-EF999EFFFD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC60EDF9-4149-400B-9B61-4C96918CDB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC60EDF9-4149-400B-9B61-4C96918CDB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC60EDF9-4149-400B-9B61-4C96918CDB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC60EDF9-4149-400B-9B61-4C96918CDB34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D40A79F2-D074-4D1C-97FE-1A451FEC5BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40A79F2-D074-4D1C-97FE-1A451FEC5BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40A79F2-D074-4D1C-97FE-1A451FEC5BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40A79F2-D074-4D1C-97FE-1A451FEC5BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67EEF8A3-E6B5-450B-A784-99851C7D298A} = {54AB7DE4-84CD-466A-A0B4-9B44A447BBC4}
+		{3A7DC657-2250-4908-A0D8-BDC75ABE0599} = {A5698DD9-B16B-411D-9CF5-B8239C767DC1}
+		{0F834F40-0EF5-4AA5-A094-EF999EFFFD29} = {63A3E645-532E-4FD8-97AF-2CFFE12BABFA}
+		{FC60EDF9-4149-400B-9B61-4C96918CDB34} = {E66F7781-8121-4992-8474-506321D871DE}
+		{D40A79F2-D074-4D1C-97FE-1A451FEC5BC6} = {A5698DD9-B16B-411D-9CF5-B8239C767DC1}
+	EndGlobalSection
+EndGlobal
