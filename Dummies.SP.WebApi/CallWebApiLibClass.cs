@@ -1,6 +1,9 @@
 ﻿using Microsoft.SqlServer.Server;
+//using Newtonsoft.Json;
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -10,7 +13,7 @@ using System.Threading.Tasks;
 namespace Dummies.SP.WebApi
 {
     /// <summary>
-    /// 
+    /// 開放給 Store Procedure 來 Call Web API 的 C# 實作.
     /// </summary>
     public class CallWebApiLibClass
     {
@@ -44,6 +47,7 @@ namespace Dummies.SP.WebApi
         /// <param name="InvokeUrl">Invoke Url</param>
         /// <param name="JsonString">Result Json Data</param>
         /// <returns></returns>
+        [SqlFunction()]
         public static string PostJsonToWebApi(string InvokeUrl, string JsonInput)
         {
             HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(InvokeUrl);
@@ -87,5 +91,12 @@ namespace Dummies.SP.WebApi
 
             return resultJson;
         }
+        //[SqlProcedure()]
+        //public IEnumerable GetDataTableByWebApi(string InvokeUrl, string JsonInput)
+        //{
+        //    string JsonText = PostJsonToWebApi(InvokeUrl, JsonInput);
+        //    DataTable dt = JsonConvert.DeserializeObject<DataTable>(JsonInput);
+        //    return dt.AsEnumerable();
+        //}
     }
 }
